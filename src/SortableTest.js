@@ -12,14 +12,14 @@ function SortableTest() {
     "MC2": ['B1', 'B2', 'B3']});
 
   const [itemInfo, setItemInfo] = useState({
-    "MC1": {"Name":"Chase Bank"},
-    "MC2": {"Name":"Redneck Bank"},
-    "A1": {"Name":"Car"},
-    "A2": {"Name":"Gas"},
-    "A3": {"Name":"Butter"},
-    "B1": {"Name":"Bike"},
-    "B2": {"Name":"Train"},
-    "B3": {"Name":"Food"}
+    "MC1": {"Name":"Vehicle"},
+    "MC2": {"Name":"House"},
+    "A1": {"Name":"Gas"},
+    "A2": {"Name":"Maintenance"},
+    "A3": {"Name":"Licensing"},
+    "B1": {"Name":"Utilities"},
+    "B2": {"Name":"Property Taxes"},
+    "B3": {"Name":"Repairs"}
   })
 
   const [idTypes] = useState( {
