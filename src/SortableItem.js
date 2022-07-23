@@ -8,7 +8,7 @@ const SortableItem = (props, children) => {
 
   return (
     <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
-      Hi I am a sortable item {props.id}
+      Hi I am a sortable item with id of {props.id}
     </div>
   );
 }
