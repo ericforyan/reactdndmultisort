@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {DndContext, closestCenter, KeyboardSensor, PointerSensor, useSensor, useSensors,} from '@dnd-kit/core';
 import {arrayMove, SortableContext, sortableKeyboardCoordinates, verticalListSortingStrategy,} from '@dnd-kit/sortable';
 
-import SortableItem from './SortableItem.jsx';
+import SortableItem from './SortableItem.js';
 import Container from './Container.js';
 
 function SortableTest() {
@@ -40,10 +40,6 @@ function SortableTest() {
       coordinateGetter: sortableKeyboardCoordinates,
     })
   );
-
-  const myStyle = {
-    minHeight: "150px"
-  };
 
   return (
     <DndContext sensors={sensors} onDragOver={handleDragOver} onDragEnd={handleDragEnd}>
